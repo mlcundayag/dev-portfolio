@@ -28,19 +28,19 @@ header {
 }
 
 .nav-header {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 10px solid var(--secondary-color);
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 10px solid var(--secondary-color);
   background-color: transparent;
 }
 
 h1 {
-    font-size: 200%;
-    margin: 0px 3%;
+  font-size: 200%;
+  margin: 0px 3%;
 }
 
 nav {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 li {
@@ -128,7 +128,8 @@ main {
 .about {
   display: flex;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  gap: 5%;
 }
 
 /*about me section styling for text box*/
@@ -260,6 +261,7 @@ button {
     padding: 0px;
     margin: 0px;
   }
+
   .split-left {
     width: 100%;
     top: 0;
@@ -279,12 +281,14 @@ button {
 
   .word-art {
     position: relative;
-    font-size: 200%;
+    font-size: 180%;
     line-height: 1.5;
-    transform: translate(20%, 0px);
+    transform: translate(17%, 0px);
   } 
+
+  /*transform main image by resizing and moving it to desired location*/
   .container-word-art img {
-    transform: scale(0.5) translate(-120%, -170%);
+    transform: scale(0.4) translate(-120%, -185%);
   }
 
   main {
