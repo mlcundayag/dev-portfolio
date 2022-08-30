@@ -103,10 +103,12 @@ gap: 10%;
   font-size: 400%;
   margin: 2% 5%;
   color: var(--secondary-color);
+  flex: 2;
 }
 
 .container-word-art img {
   width: 250px;
+  flex: 1
 }
 
 #subtitle {
@@ -201,12 +203,6 @@ footer {
   color: var(--primary-color);
 }
 
-
-img {
-  display: block;
-  margin: 20px auto;
-}
-
 section {
   margin-bottom: 0;
   padding: 7% 5%;
@@ -230,7 +226,7 @@ label {
 input, 
 textarea {
   box-sizing: border-box;
-  width: 300px;
+  width: 50%;
   border: 1px solid var(--background-color);
 }
 
