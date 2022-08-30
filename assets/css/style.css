@@ -210,8 +210,10 @@ section {
 }
 
 form {
-  margin: 0 auto;
+  display: inline-block;
+  margin: 0px;
   width: 500px;
+  text-align: center;
   padding: 10px 0px;
   border: 5px solid var(--secondary-color);
   border-radius: 20px;
@@ -220,14 +222,14 @@ form {
 label {
   display: inline-block;
   width: 100px;
-  padding: 1% 0px;
+  padding: 2% 0px;
 }
   
 input, 
 textarea {
   box-sizing: border-box;
-  width: 50%;
-  border: 1px solid var(--background-color);
+  width: 60%;
+  border: 2px solid var(--background-color);
 }
 
 textarea {
@@ -298,6 +300,16 @@ button {
 
   .small {
     width: 33.33%;
+  }
+
+  form {
+    display: inline-block;
+    text-align: center;
+    width: 350px;
+  }
+
+  label {
+    width: 65px;
   }
 
   footer {
